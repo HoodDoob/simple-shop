@@ -12,8 +12,7 @@ export function insertOrder(payload) {
         },
         body: JSON.stringify(payload),
     })
-        .then()
-        .then()
+
 }
 
 // const options = {
