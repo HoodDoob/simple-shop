@@ -29,12 +29,16 @@ img {
 
 .ProductList {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.2rem;
 }
 // .Product {
 //   background-color: aqua;
 // }
 
-// .Basket {
-//   background-color: orange;
-// }
+.Basket {
+  li {
+    margin-top: 5%;
+    border: #282828 3px solid;
+  }
+}
